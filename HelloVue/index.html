@@ -15,16 +15,13 @@
         },
         beforeCreate: function(){
           console.log("beforeCreate");
-          console.log(this.message);
         },
         created: function(){
           console.log("created");
-          console.log(this.message);
         },
         mounted: function(){
           console.log("mounted");
           this.message = 'Hello Vue!';
-          console.log(this.message);
         },
         updated: function(){
           console.log("updated");
